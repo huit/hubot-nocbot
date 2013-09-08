@@ -2,7 +2,7 @@
 #   Utility to interface with NOC huis tool
 #
 # Commands:
-#   hubot huis - Reply with pong
+#   hubot huis <IP or FQDN> - Reply with Data L3 Network Data *BETA*
 
 net = require 'net'
 
@@ -16,7 +16,7 @@ module.exports = (robot) ->
     port = 43
 
     ping = (socket, delay) ->
-      msg.send "Pinging server with #{qry}"
+      #msg.send "Pinging server with #{qry}"
       socket.write "#{qry}\n"
       #nextPing = -> ping(socket, delay)
       #setTimeout nextPing, delay
