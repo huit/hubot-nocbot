@@ -31,9 +31,7 @@
     "twit": ">=  1.1.9",
     "hubot-tweeter": ">=  0.1.0",
     "aws2js": ">=  0.8.3",
-    "hubot-hipchat": ">=  2.5.1-4",
     "jsdom": ">=  0.8.4",
-    "node-gyp": ">=  0.10.10",
     "soupselect": ">=  0.2.0"
   },
 
